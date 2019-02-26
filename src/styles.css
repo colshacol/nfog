@@ -1,0 +1,60 @@
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background: #f2f4f6;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  border: 2px solid #160bb4;
+  background: none;
+  font-size: 16px;
+  color: #160bb4;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.App {
+  display: flex;
+}
+
+.LayersActions {
+  margin-top: auto;
+  border-top: 2px solid white;
+}
+
+.LayerDetails {
+  display: flex;
+}
+
+.LayerDetail {
+  display: flex;
+}
+
+.DisplayLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.23s;
+}
+
+input {
+  height: 36px;
+  border: 2px solid #f2f2f2;
+  color: darkslategray;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+input:active,
+input:focus {
+  outline: none;
+  border: 2px solid #160bb4;
+}
